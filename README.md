@@ -1,39 +1,35 @@
-# Simple NextJS Quick Start
+# Projeto landing page do curso react avançado
 
-A simple project starter to work with React, NextJS and Styled Components
+projeto criado para treinar os conhecimentos adiquiridos em **graphQl** **strapi** e **nextjs** no curso [react avançado](https://reactavancado.com.br)
 
 You can see the example in [https://nextjs-quickstart.now.sh/](https://nextjs-quickstart.now.sh/)
 
-### 📦 Install
+### 📦 instalação
 
+baixe esse repositório para rodar o front da aplicação
 ```
-$ git clone https://github.com/guilouro/simple-nextjs-quick-start.git
+$ git clone git@github.com:FranciscoBBC/landing-page-react-avancado.git
 
 $ yarn install
+
 ```
 
-### 🔨 How to use
+baixe o backend feito com strapi
+```
+$ git@github.com:FranciscoBBC/reactavancado-api.git
 
-Runs next which starts Next.js in development mode
+$ yarn install
 
+```
+
+### 🔨 como usar
+
+rode esse projeto
 ```bash
 $ yarn dev
 ```
 
-Runs next build which builds the application for production usage
-
+rode o back-end do projeto
 ```bash
-$ yarn build
-```
-
-Runs next start which starts a Next.js production server
-
-```bash
-$ yarn start
-```
-
-Runs next build and export which exports a files in a `out` folder to deploy
-
-```bash
-$ yarn deploy
+$ yarn develop
 ```
